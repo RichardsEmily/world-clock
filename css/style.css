@@ -8,7 +8,7 @@ h1 {
   font-size: 40px;
   font-weight: 500;
   margin: 0;
-  line-height: normal;
+  line-height: 100%;
 }
 
 p {
@@ -47,10 +47,10 @@ select {
   font-size: 16px;
   font-weight: bold;
   appearance: none;
-  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+  background-image: url("/media/arrow-down.svg");
   background-repeat: no-repeat;
   background-position: right 1rem center;
-  background-size: 1em;
+  background-size: 1.2em;
 }
 
 .city-details {
@@ -63,6 +63,10 @@ select {
   align-self: stretch;
   justify-content: space-between;
   color: white;
+}
+
+#date {
+  margin-top: 8px;
 }
 
 .left {
@@ -79,4 +83,5 @@ select {
 footer {
   color: #001b62;
   margin-top: 24px;
+  font-size: 14px;
 }
