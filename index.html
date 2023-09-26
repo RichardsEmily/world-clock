@@ -9,12 +9,54 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data-1970-2030.min.js"></script>
   </head>
   <body>
-    <h1>World clock</h1>
+    <div class="container">
+      <img src="/media/logo.svg" alt="logo" id="logo" />
+      <select name="city-select" id="city-select">
+        <option value="" selected>Choose city</option>
+        <option value="" id="london">London</option>
+        <option value="" id="cardiff">Cardiff</option>
+        <option value="" id="rome">Rome</option>
+      </select>
+
+      <div class="city-details">
+        <div class="left">
+          <h1 id="city">Los angeles 🇺🇸</h1>
+          <p id="date">August 15th 2023</p>
+        </div>
+        <div class="right">
+          <h1 id="time">1:48:15</h1>
+          <p id="ampm">AM</p>
+        </div>
+      </div>
+
+      <div class="city-details">
+        <div class="left">
+          <h1 id="city">Los angeles 🇺🇸</h1>
+          <p id="date">August 15th 2023</p>
+        </div>
+        <div class="right">
+          <h1 id="time">1:48:15</h1>
+          <p id="ampm">AM</p>
+        </div>
+      </div>
+
+      <div class="city-details">
+        <div class="left">
+          <h1 id="city">Los angeles 🇺🇸</h1>
+          <p id="date">August 15th 2023</p>
+        </div>
+        <div class="right">
+          <h1 id="time">1:48:15</h1>
+          <p id="ampm">AM</p>
+        </div>
+      </div>
+    </div>
+
     <footer>
-      This project was created by Emily Richards and is
       <a href="https://github.com/RichardsEmily/world-clock" target="_blank"
         >Open sourced on GitHub</a
       >
+      by Emily Richards
     </footer>
     <script src="/javascript/index.js"></script>
   </body>
