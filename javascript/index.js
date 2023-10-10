@@ -20,10 +20,10 @@ function updateTime() {
     let parisTime = moment();
 
     parisDateElement.innerHTML = parisTime
-      .tz("France/Paris")
+      .tz("Europe/Paris")
       .format("MMMM Do YYYY");
     parisTimeElement.innerHTML = parisTime
-      .tz("France/Paris")
+      .tz("Europe/Paris")
       .format("[<h1>]h:mm:ss[</h1>] [<p>]A[</p>]");
   }
 
